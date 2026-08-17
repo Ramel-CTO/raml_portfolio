@@ -150,7 +150,7 @@
       background-color: var(--md-sys-color-surface-container-low);
       border: 1px solid var(--md-sys-color-outline-variant);
       border-radius: var(--md-shape-corner-large);
-      padding: 28px;
+      padding: 24px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -166,6 +166,16 @@
       border-color: var(--md-sys-color-primary);
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
       background-color: var(--md-sys-color-surface-container);
+    }
+
+    /* M3 Card Media Top Spot */
+    .card-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: var(--md-shape-corner-medium);
+      margin-bottom: 20px;
+      border: 1px solid var(--md-sys-color-outline-variant);
     }
 
     .card-header {
@@ -267,13 +277,13 @@
       <h1>Research and Development Portfolio</h1>
       <p class="subtitle">Distributed Vision Pipelines | Edge ML Systems | Spatial Analytics</p>
       <p class="bio">
-       Hello there! My name is Ramel Robinson and I'm a futurist and life long student of applied science. I would love to welcome you to my research and development labs, where 
-       I have designed and integrated innovative solutions across 4 industry verticals. Warehouses, Laundromats, Hotels and Data Centers. </p>
+        Hello there! My name is Ramel Robinson and I'm a futurist and life long student of applied science. I would love to welcome you to my research and development labs, where 
+        I have designed and integrated innovative solutions across 4 industry verticals. Warehouses, Laundromats, Hotels and Data Centers. 
+      </p>
     </header>
 
     <!-- Projects Section Title -->
     <div class="section-title">
-      <span class="material-symbols-outlined" style="color: var(--md-sys-color-primary);">grid_view</span>
       System Arch & CV Projects
     </div>
 
@@ -282,88 +292,108 @@
 
       <!-- PROJECT 1 -->
       <div class="project-card">
-        <div class="card-header">
-          <span class="project-number">Semiconductor Thermal Management // </span>
-          <h2 class="project-title">Liqtel Labs</h2>
-          <p class="project-summary">
-            A high-throughput computer vision pipeline engineered for real-time edge processing. Built to optimize GPU memory allocation, reduce latency under heavy stream loads, and execute inference tasks with minimal drop rates.
-          </p>
-          <div class="tech-stack">
-            <span class="tech-pill">PyTorch</span>
-            <span class="tech-pill">OpenCV</span>
-            <span class="tech-pill">CUDA</span>
-            <span class="tech-pill">Edge Processing</span>
+        <div>
+          <!-- M3 Card Top Image -->
+          <img class="card-image" src="https://via.placeholder.com/600x400/1F2429/8BCDFF?text=Liqtel+Labs+Thermal+Cooling" alt="Liqtel Labs Thermal Cooling Architecture">
+          
+          <div class="card-header">
+            <span class="project-number">Semiconductor Thermal Management // </span>
+            <h2 class="project-title">Liqtel Labs</h2>
+            <p class="project-summary">
+              A high-throughput computer vision pipeline engineered for real-time edge processing. Built to optimize GPU memory allocation, reduce latency under heavy stream loads, and execute inference tasks with minimal drop rates.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-pill">PyTorch</span>
+              <span class="tech-pill">OpenCV</span>
+              <span class="tech-pill">CUDA</span>
+              <span class="tech-pill">Edge Processing</span>
+            </div>
           </div>
         </div>
         <!-- CTA Link to Google Colab -->
         <a href="https://colab.research.google.com/" target="_blank" rel="noopener noreferrer" class="btn-colab">
-          <span class="material-symbols-outlined">terminal</span>
+          <span class="material-symbols-outlined">thermostat</span>
           Launch Thermal Cooling Lab
         </a>
       </div>
 
       <!-- PROJECT 2 -->
       <div class="project-card">
-        <div class="card-header">
-          <span class="project-number">Hospitality Risk Management // </span>
-          <h2 class="project-title">Wudu Labs</h2>
-          <p class="project-summary">
-            Spatial tracking and automated feature detection system using dynamic bounding box heuristics and non-maximum suppression (NMS) optimizations for complex video frame sequences.
-          </p>
-          <div class="tech-stack">
-            <span class="tech-pill">Object Tracking</span>
-            <span class="tech-pill">ONNX Runtime</span>
-            <span class="tech-pill">Python</span>
-            <span class="tech-pill">Filter Logic</span>
+        <div>
+          <!-- M3 Card Top Image -->
+          <img class="card-image" src="https://via.placeholder.com/600x400/1F2429/8BCDFF?text=Wudu+Labs+Surface+Analysis" alt="Wudu Labs Surface Analysis Architecture">
+          
+          <div class="card-header">
+            <span class="project-number">Hospitality Risk Management // </span>
+            <h2 class="project-title">Wudu Labs</h2>
+            <p class="project-summary">
+              Spatial tracking and automated feature detection system using dynamic bounding box heuristics and non-maximum suppression (NMS) optimizations for complex video frame sequences.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-pill">Object Tracking</span>
+              <span class="tech-pill">ONNX Runtime</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Filter Logic</span>
+            </div>
           </div>
         </div>
         <!-- CTA Link to Google Colab -->
         <a href="https://colab.research.google.com/" target="_blank" rel="noopener noreferrer" class="btn-colab">
-          <span class="material-symbols-outlined">terminal</span>
+          <span class="material-symbols-outlined">texture</span>
           Launch Surface Analysis Lab
         </a>
       </div>
 
       <!-- PROJECT 3 -->
       <div class="project-card">
-        <div class="card-header">
-          <span class="project-number">Closed-Loop Laundry Logistics // </span>
-          <h2 class="project-title">Sudflow Labs</h2>
-          <p class="project-summary">
-            Multi-threaded video ingestion and asynchronous image processing architecture designed to handle dynamic frame-rate drops and stream bottlenecks across low-power hardware devices.
-          </p>
-          <div class="tech-stack">
-            <span class="tech-pill">Async Pipeline</span>
-            <span class="tech-pill">FastAPI</span>
-            <span class="tech-pill">Microservices</span>
-            <span class="tech-pill">Benchmarking</span>
+        <div>
+          <!-- M3 Card Top Image -->
+          <img class="card-image" src="https://via.placeholder.com/600x400/1F2429/8BCDFF?text=Sudflow+Labs+Fabric+Analysis" alt="Sudflow Labs Fabric Analysis Architecture">
+          
+          <div class="card-header">
+            <span class="project-number">Closed-Loop Laundry Logistics // </span>
+            <h2 class="project-title">Sudflow Labs</h2>
+            <p class="project-summary">
+              Multi-threaded video ingestion and asynchronous image processing architecture designed to handle dynamic frame-rate drops and stream bottlenecks across low-power hardware devices.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-pill">Async Pipeline</span>
+              <span class="tech-pill">FastAPI</span>
+              <span class="tech-pill">Microservices</span>
+              <span class="tech-pill">Benchmarking</span>
+            </div>
           </div>
         </div>
         <!-- CTA Link to Google Colab -->
         <a href="https://colab.research.google.com/" target="_blank" rel="noopener noreferrer" class="btn-colab">
-          <span class="material-symbols-outlined">terminal</span>
+          <span class="material-symbols-outlined">checkroom</span>
           Launch Fabric Analysis Lab
         </a>
       </div>
 
       <!-- PROJECT 4 -->
       <div class="project-card">
-        <div class="card-header">
-          <span class="project-number">Hyperlocal Fulfillment Logistics // </span>
-          <h2 class="project-title">Ontrac Warehouse</h2>
-          <p class="project-summary">
-            Forensic analysis and quality control computer vision pipeline. Features automated anomaly detection, spatial heatmapping, and downloadable inspection audit reporting.
-          </p>
-          <div class="tech-stack">
-            <span class="tech-pill">Anomaly Detection</span>
-            <span class="tech-pill">Scikit-Image</span>
-            <span class="tech-pill">Model Auditing</span>
-            <span class="tech-pill">Spatial Physics</span>
+        <div>
+          <!-- M3 Card Top Image -->
+          <img class="card-image" src="https://via.placeholder.com/600x400/1F2429/8BCDFF?text=Ontrac+Warehouse+Package+Processing" alt="Ontrac Warehouse Package Processing Architecture">
+          
+          <div class="card-header">
+            <span class="project-number">Hyperlocal Fulfillment Logistics // </span>
+            <h2 class="project-title">Ontrac Warehouse</h2>
+            <p class="project-summary">
+              Forensic analysis and quality control computer vision pipeline. Features automated anomaly detection, spatial heatmapping, and downloadable inspection audit reporting.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-pill">Anomaly Detection</span>
+              <span class="tech-pill">Scikit-Image</span>
+              <span class="tech-pill">Model Auditing</span>
+              <span class="tech-pill">Spatial Physics</span>
+            </div>
           </div>
         </div>
         <!-- CTA Link to Google Colab -->
         <a href="https://colab.research.google.com/" target="_blank" rel="noopener noreferrer" class="btn-colab">
-          <span class="material-symbols-outlined">terminal</span>
+          <span class="material-symbols-outlined">inventory_2</span>
           Launch Package Processing Lab
         </a>
       </div>
