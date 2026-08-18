@@ -108,6 +108,41 @@
        HEADER & HERO SECTION (M3 Expressive Styling)
        ========================================================================== */
 
+
+    /* Badge Container & Styling */
+    .tech-stack-badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--md-sys-color-primary, #8bcdff);
+      background-color: rgba(139, 205, 255, 0.08);
+      border: 1px solid rgba(139, 205, 255, 0.25);
+      box-shadow: 0 0 12px rgba(0, 140, 255, 0.15);
+      transition: all 0.2s ease-in-out;
+    }
+
+    .badge:hover {
+      background-color: rgba(139, 205, 255, 0.18);
+      border-color: rgba(139, 205, 255, 0.5);
+      box-shadow: 0 0 18px rgba(0, 140, 255, 0.35);
+      transform: translateY(-1px);
+    }
+
+    
+
 /* Centered Circular Avatar Styling */
     .avatar-container {
       display: flex;
@@ -340,7 +375,7 @@
       
       
       <h1>Ramel Robinson</h1>
-      <p class="subtitle">Systems Architect | CV Engineer</p>
+      <p class="subtitle">Systems Architecture | CV Engineer</p>
       <div class="tech-stack-badges">
       <span class="badge">Systems Architecture</span>
       <span class="badge">Computer Vision</span>
