@@ -107,13 +107,35 @@
     /* ==========================================================================
        HEADER & HERO SECTION (M3 Expressive Styling)
        ========================================================================== */
+
+/* Centered Circular Avatar Styling */
+    .avatar-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(139, 205, 255, 0.4);
+      box-shadow: 0 0 20px rgba(0, 140, 255, 0.25);
+      background-color: #1a222d;
+    }
+
+
     header {
+
+      
       background-color: var(--md-sys-color-surface-container);
       border-radius: var(--md-shape-corner-expressive);
       padding: 40px 32px;
       margin-bottom: 32px;
       border: 1px solid var(--md-sys-color-outline-variant);
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      text-align: center; /* Centers the avatar, badge, title, and bio */
     }
 
     .hero-badge {
@@ -299,6 +321,22 @@
   <div class="container">
     <!-- Header / Hero Section -->
     <header>
+
+      <div class="avatar-container">
+       <img 
+      class="profile-avatar" 
+      src="images/Ramel_Robinson_avatar.jpg" 
+      alt="Ramel Profile Picture"
+      loading="eager"
+      fetchpriority="high"
+      width="110"
+      height="110"
+         >
+       </div>
+
+
+
+      
       <div class="hero-badge">
         <span class="material-symbols-outlined" style="font-size: 16px;">memory</span>
         Systems Architecture & Computer Vision
