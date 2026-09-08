@@ -356,6 +356,41 @@
       font-size: 20px;
     }
 
+
+ .btn-hero {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: var(--md-sys-color-primary-container);
+      color: var(--md-sys-color-on-primary-container);
+      border: 1px solid var(--md-sys-color-primary);
+      padding: 12px 20px;
+      border-radius: var(--md-shape-corner-medium);
+      font-family: var(--md-sys-typescale-font-main);
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color var(--md-sys-motion-duration) var(--md-sys-motion-easing),
+                  transform var(--md-sys-motion-duration) var(--md-sys-motion-easing);
+      width: 100%;
+      margin-top: 24px;
+    }
+
+    .btn-hero:hover {
+      background-color: var(--md-sys-color-primary);
+      color: var(--md-sys-color-on-primary);
+      transform: scale(1.01);
+    }
+
+    .btn-hero span.material-symbols-outlined {
+      font-size: 20px;
+    }
+
+
+
+   
+
     /* ==========================================================================
        FOOTER
        ========================================================================== */
@@ -404,8 +439,7 @@
         I have designed and integrated innovative solutions across 4 industry verticals. Warehouses, Laundromats, Hotels and Data Centers. 
       </p>
 
-      <a href="https://github.com/Ramel-CTO" target="_blank" rel="noopener noreferrer" class="btn-colab">
-       <i class="fa-brands fa-github"></i>          
+      <a href="https://github.com/Ramel-CTO" target="_blank" rel="noopener noreferrer" class="btn-hero">
        My Github Workbench
         </a>
     </header>
